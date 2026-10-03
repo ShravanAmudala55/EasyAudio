@@ -12,10 +12,13 @@ Install **a-Shell mini** from the App Store. It is free, about 391 MB, needs iOS
 
 ## 2. Install yt-dlp inside it
 
-Paste this one line into a-Shell and press return:
+Paste these four lines into a-Shell and press return:
 
 ```bash
-mkdir -p ~/Documents/bin ~/Documents/Audio && curl -L -o ~/Documents/bin/yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp && chmod +x ~/Documents/bin/yt-dlp
+mkdir -p ~/Documents/bin
+mkdir -p ~/Documents/Audio
+curl -L -o ~/Documents/bin/yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
+chmod +x ~/Documents/bin/yt-dlp
 ```
 
 It creates `~/Documents/bin` for the tool and `~/Documents/Audio` for your mp3 files. Running it again later updates yt-dlp.

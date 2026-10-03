@@ -44,10 +44,13 @@ Get it from the App Store and open it once. You will see a black screen with a t
 
 ### 2. Install the download tool
 
-Copy this line, paste it into a-Shell mini and press return. Wait until the cursor comes back.
+Copy these four lines, paste them into a-Shell mini and press return. Wait until the cursor comes back.
 
 ```
-mkdir -p ~/Documents/bin ~/Documents/Audio && curl -L -o ~/Documents/bin/yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp && chmod +x ~/Documents/bin/yt-dlp
+mkdir -p ~/Documents/bin
+mkdir -p ~/Documents/Audio
+curl -L -o ~/Documents/bin/yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp
+chmod +x ~/Documents/bin/yt-dlp
 ```
 
 This installs yt-dlp and creates a folder called **Audio** for your files.
