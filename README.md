@@ -9,7 +9,7 @@
 
 Tap **Share** in YouTube, tap **Save Audio**, and an mp3 lands in your Files app. There is no server to host, no account to create and nothing to subscribe to.
 
-<!-- Add a short screen recording here: docs/demo.gif -->
+<p align="center"><img src="docs/demo.gif" alt="Demo: share a YouTube video, tap Save Audio, get an mp3 in Files" width="280"></p>
 
 ## Why this exists
 
@@ -120,7 +120,7 @@ Beta. The full flow (YouTube Share, Save Audio shortcut, a-Shell mini, mp3 in Fi
 - [x] On-device yt-dlp to mp3 in a-Shell mini
 - [x] End-to-end test of the share-sheet Shortcut
 - [ ] Self-updating Shortcut that installs and updates yt-dlp on every run
-- [ ] Demo recording and screenshots
+- [x] Demo recording
 - [ ] Native iOS app with a share extension, for people who build from source
 
 ## Contributing
