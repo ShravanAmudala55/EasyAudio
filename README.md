@@ -113,12 +113,12 @@ That depends on the video and your country. See the disclaimer below.
 
 ## Status
 
-Beta. Installing yt-dlp, downloading and converting to mp3 are tested in a-Shell mini on an iPhone. The share-sheet Shortcut follows a published community approach and is still being tested end to end. Reports are welcome.
+Beta. The full flow (YouTube Share, Save Audio shortcut, a-Shell mini, mp3 in Files) is tested on an iPhone. Reports from other devices and iOS versions are welcome.
 
 ## Roadmap
 
 - [x] On-device yt-dlp to mp3 in a-Shell mini
-- [ ] End-to-end test of the share-sheet Shortcut
+- [x] End-to-end test of the share-sheet Shortcut
 - [ ] Self-updating Shortcut that installs and updates yt-dlp on every run
 - [ ] Demo recording and screenshots
 - [ ] Native iOS app with a share extension, for people who build from source
